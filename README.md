@@ -36,7 +36,7 @@ $ gone
 
 # Todo
 
-Currently I'm only using DPMS to put the monitors to sleep (I have 5 at my desk),
+Currently I'm only using DPMS to put the monitors to sleep (I have 6 at my desk),
 but the plan is to make this a robust tool for reminding me to perform/confirm
 tasks before leaving my desk and to place all systems in modes of minimally
 viable power consumption until I return.
