@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# TODO: see README.md at http://github.com/ninegrid/gone/
+# TODO: add more features
+# TODO: then, only call "gone &" on remotes
+
+ssh terminus 'export DISPLAY=:0; xset dpms force standby &' &
+ssh lab1 'export DISPLAY=:0; xset dpms force standby &' &
+ssh lab2 'export DISPLAY=:0; xset dpms force standby &' &
+ssh sidious 'export DISPLAY=:0; xset dpms force standby &' &
+ssh plagueis 'export DISPLAY=:0; xset dpms force standby &' &
